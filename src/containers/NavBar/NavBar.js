@@ -17,6 +17,9 @@ const NavBar = () => {
           <a className={classes.Nav} href="#work">
             Work
           </a>
+          <a className={classes.Nav} href="#education">
+            Education
+          </a>
           <a className={classes.Nav} href="#contact">
             Contact
           </a>
