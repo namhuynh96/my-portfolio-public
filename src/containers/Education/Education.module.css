@@ -1,0 +1,37 @@
+.Education {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.Education::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: rgb(83, 83, 83);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.EducationEach {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .Education::after {
+    display: none;
+  }
+  .EducationEach {
+    width: 100%;
+  }
+}
+
+.Time {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}

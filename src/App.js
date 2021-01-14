@@ -4,6 +4,7 @@ import Home from "./containers/Home/Home";
 import About from "./containers/About/About";
 import Skills from "./containers/Skills/Skills";
 import Work from "./containers/Work/Work";
+import Education from "./containers/Education/Education";
 import Contact from "./containers/Contact/Contact";
 import Footer from "./containers/Footer/Footer";
 
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Skills />
       <Work />
+      <Education />
       <Contact />
       <Footer />
     </div>
