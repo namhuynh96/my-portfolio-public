@@ -27,7 +27,7 @@ const Skills = () => {
         />
         <Skill
           iconElement={<Nodejs />}
-          description="Use Expressjs framework, with ability to write asynchronous programming."
+          description="Use Expressjs framework, write efficient asynchronous programming."
         />
         <Skill
           iconElement={<Database />}
