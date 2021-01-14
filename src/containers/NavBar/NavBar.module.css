@@ -1,0 +1,18 @@
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Nav {
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.678)
+}
+
+.Portfolio {
+  font-weight: 600;
+}

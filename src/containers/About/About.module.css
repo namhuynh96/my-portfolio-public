@@ -1,0 +1,17 @@
+.About {
+  text-align: center;
+}
+
+.Image {
+  width: 80%;
+  padding: 0;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px rgb(153, 153, 153);
+}
+
+.Content {
+  max-width: 600px;
+  margin: auto;
+  padding-top: 20px;
+}

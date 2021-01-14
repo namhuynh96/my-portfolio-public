@@ -1,0 +1,14 @@
+.Home {
+  text-align: center;
+}
+
+.Title {
+  font-size: 4rem;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+  .Title {
+    font-size: 3rem;
+  }
+}
