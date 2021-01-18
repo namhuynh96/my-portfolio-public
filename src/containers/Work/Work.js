@@ -68,6 +68,13 @@ const Work = () => {
                 with acceptance from admin
               </li>
             </ul>
+            <a
+              href="https://hamkiot.nam-huynh.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button>Project demo</Button>
+            </a>
           </div>
         </div>
         <div className={[classes.ContentContainer, classes.Left].join(" ")}>
@@ -76,8 +83,8 @@ const Work = () => {
             <h4>InSolution Oy Tampere | Jan 2019 - Aug 2019</h4>
             <ul>
               <li>
-                Learn and use .NET MVC to continue developing a project based on the
-                company code base
+                Learn and use .NET MVC to continue developing a project based on
+                the company code base
               </li>
               <li>Create new features on front-end (HTML, CSS, JS, jQuery)</li>
               <li>Build APIs</li>
