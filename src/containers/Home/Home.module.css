@@ -2,13 +2,88 @@
   text-align: center;
 }
 
+.Greeting {
+  animation: moveInTop 0.8s ease-out;
+}
+
 .Title {
   font-size: 4rem;
   overflow: hidden;
+  animation: moveInLeft 0.8s ease-out;
+}
+
+.Intro {
+  animation: moveInRight 0.8s ease-out;
+}
+
+.ConnectBtn {
+  animation: moveInBottom 0.8s ease-out 0.8s;
+  animation-fill-mode: backwards;
+  display: inline-block;
 }
 
 @media screen and (max-width: 500px) {
   .Title {
     font-size: 3rem;
+  }
+}
+
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  70% {
+    opacity: 0.5;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  70% {
+    opacity: 0.5;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  70% {
+    opacity: 0.5;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  70% {
+    opacity: 0.5;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
