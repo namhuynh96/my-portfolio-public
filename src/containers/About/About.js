@@ -9,10 +9,11 @@ const About = () => {
       <div className={classes.About}>
         <img className={classes.Image} src={Image} alt="Me in Malaysia" />
         <p className={classes.Content}>
-          I love to work with Nodejs and React. I use my stack with Typescript.
-          For the database, I mainly work with MongoDb but I have also worked
-          with SQL Database (MS-SQL) before. As a full stack, I am able to work
-          efficiently in both front and back end position.
+          I spent 5 years in Finland to study and work in software field. I had
+          a chance to build my career path in web development. From very first
+          days, I only worked with HTML, CSS, JavaScript and jQuery and tried to
+          understand how the front end can transfer data back and forth to back
+          end. Now I am focusing on web front end career path with ReactJs.
         </p>
       </div>
     </Section>

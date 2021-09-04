@@ -1,6 +1,6 @@
 import Section from "../Section/Section";
 import Button from "../../components/Button/Button";
-import IntershipCert from "../../assets/files/Internship_Certificate_Nam_Huynh.pdf";
+// import IntershipCert from "../../assets/files/Internship_Certificate_Nam_Huynh.pdf";
 
 import classes from "./Work.module.css";
 
@@ -10,12 +10,14 @@ const Work = () => {
       <div className={classes.Timeline}>
         <div className={[classes.ContentContainer, classes.Left].join(" ")}>
           <div className={classes.Content}>
-            <h2>App For haravan.com (based in Vietnam, similar to Shopify)</h2>
-            <h4>Sept 2020 - Jan 2021</h4>
+            <h2>
+              App For Haravan app store (based in Vietnam, similar to Shopify)
+            </h2>
+            <h4>May 2020 - Dec 2020</h4>
             <ul>
               <li>
                 Build a photo review app so that customer can post review with
-                photo on an online store
+                photo on an online shop
               </li>
               <li>
                 Apply Haravan APIs, webhooks. Create email campaigns with AWS
@@ -48,24 +50,26 @@ const Work = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <Button>App Demo</Button>
+              <Button>App for demo shop in Vietnamese</Button>
             </a>
           </div>
         </div>
         <div className={[classes.ContentContainer, classes.Right].join(" ")}>
           <div className={classes.Content}>
-            <h2>University Project (Simple authorized IoT)</h2>
-            <h4>Sep 2019 - March 2020</h4>
+            <h2>University Project (IoT web app)</h2>
+            <h4>Sep 2019 - April 2020</h4>
             <ul>
-              <li>Build a real time web app with my stack</li>
               <li>
-                Apply IoT from AWS IoT (MQTT protocol), server run on AWS EC2
+                Build an IoT web app for my university with React, ExpressJs,
+                MongoDb, all written in Typescript
+              </li>
+              <li>
+                Apply IoT from AWS IOT (MQTT protocol), server run on AWS EC2
                 (Linux)
               </li>
-              <li>Google Authentication by AWS Amplify</li>
               <li>
-                Purpose: login by Google Account and control devices on the web
-                with acceptance from admin
+                Main purpose: able to control connected devices on the web and
+                analyze users, devices data.
               </li>
             </ul>
             <a
@@ -79,19 +83,16 @@ const Work = () => {
         </div>
         <div className={[classes.ContentContainer, classes.Left].join(" ")}>
           <div className={classes.Content}>
-            <h2>Software Engineer Trainee</h2>
-            <h4>InSolution Oy Tampere | Jan 2019 - Aug 2019</h4>
+            <h2>Front-end developer</h2>
+            <h4>InSolution (Tampere, Finland) | Jan 2018 - Aug 2019</h4>
             <ul>
-              <li>
-                Learn and use .NET MVC to continue developing a project based on
-                the company code base
-              </li>
-              <li>Create new features on front-end (HTML, CSS, JS, jQuery)</li>
-              <li>Build APIs</li>
+              <li>Maintain and develop front-end web app with the .NET MVC</li>
+              <li>Build new components with HTML5, CSS3, JavaScript, jQuery</li>
+              <li>Work with back-end developer</li>
             </ul>
-            <a href={IntershipCert} target="_blank" rel="noreferrer">
+            {/* <a href={IntershipCert} target="_blank" rel="noreferrer">
               <Button>Recommendation Letter</Button>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

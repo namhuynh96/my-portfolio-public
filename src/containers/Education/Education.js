@@ -13,7 +13,7 @@ const Education = () => {
         </div>
         <div className={classes.EducationEach}>
           <h3>Udemy Self-taught</h3>
-          <p>Web Development Courses</p>
+          <p>ReactJs and NodeJs</p>
         </div>
       </div>
     </Section>

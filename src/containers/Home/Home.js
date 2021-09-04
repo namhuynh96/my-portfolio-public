@@ -8,7 +8,7 @@ const Home = () => {
     <Section>
       <div className={classes.Home}>
         <h2 className={classes.Greeting}>Hi, I am Nam 👋</h2>
-        <h1 className={classes.Title}>A full stack developer.</h1>
+        <h1 className={classes.Title}>Front-end engineer</h1>
         <div className={classes.Intro}>
           <h1>Love the entrepreneur spirit.</h1>
           <h1>And create amazing things on the Internet.</h1>

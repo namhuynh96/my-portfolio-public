@@ -23,7 +23,7 @@ const Skills = () => {
       <div className={classes.Skills}>
         <Skill
           iconElement={<React />}
-          description="Competently use hooks, functional components."
+          description="ReactJs. Competently using hooks, functional components."
         />
         <Skill
           iconElement={<Nodejs />}
