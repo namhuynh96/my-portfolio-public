@@ -1,5 +1,6 @@
 .Section {
   width: 80vw;
+  max-width: 1500px;
   margin-top: 10vh;
   overflow: hidden;
 }
