@@ -19,9 +19,15 @@ const Work = () => {
                 Build a photo review app so that customer can post review with
                 photo on an online shop
               </li>
+              <li>Use React, ExpressJs, MongoDb and Typescript</li>
               <li>
                 Apply Haravan APIs, webhooks. Create email campaigns with AWS
-                SES. Save images and static files on AWS S3.
+                SES. Save images and static files on AWS S3. Server runs on EC2
+                (Linux)
+              </li>
+              <li>
+                Process and minify the size of the images to maximize data
+                storage and transfer performence
               </li>
               <li>
                 <a
@@ -67,6 +73,7 @@ const Work = () => {
                 Apply IoT from AWS IOT (MQTT protocol), server run on AWS EC2
                 (Linux)
               </li>
+              <li>Use Raspberry Pi to connect devices with AWS IoT</li>
               <li>
                 Main purpose: able to control connected devices on the web and
                 analyze users, devices data.
@@ -83,12 +90,22 @@ const Work = () => {
         </div>
         <div className={[classes.ContentContainer, classes.Left].join(" ")}>
           <div className={classes.Content}>
-            <h2>Front-end developer</h2>
+            <h2>Full stack developer</h2>
             <h4>InSolution (Tampere, Finland) | Jan 2018 - Aug 2019</h4>
             <ul>
-              <li>Maintain and develop front-end web app with the .NET MVC</li>
-              <li>Build new components with HTML5, CSS3, JavaScript, jQuery</li>
-              <li>Work with back-end developer</li>
+              <li>Maintain and develop the web app with .NET MVC</li>
+              <li>Build RESTful APIs and work with MSSQL</li>
+              <li>
+                Build new features and functionalities as need of the customers
+              </li>
+              <li>
+                Create real-time data transfer from local server to PLC (by HTTP
+                and timer)
+              </li>
+              <li>
+                Understand the fundametals of software and protocols (TCP/IP,
+                HTTP, ...)
+              </li>
             </ul>
             {/* <a href={IntershipCert} target="_blank" rel="noreferrer">
               <Button>Recommendation Letter</Button>

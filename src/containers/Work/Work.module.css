@@ -112,3 +112,7 @@
 .Link {
   color: #fff;
 }
+
+.Timeline ul li {
+  margin-bottom: 8px;
+}
