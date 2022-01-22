@@ -68,8 +68,8 @@ const Skills = () => {
           iconElement={<Shopify />}
           description={
             <>
-              <b>Shopify.</b> Work with Liquid, api; experience designing
-              landing page, building app, managing the store system
+              <b>Shopify.</b> Work with Liquid, api; experience building
+              landing pages and apps, managing the store system
             </>
           }
         />

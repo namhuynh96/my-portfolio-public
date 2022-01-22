@@ -10,10 +10,62 @@ const Work = () => {
       <div className={classes.Timeline}>
         <div className={[classes.ContentContainer, classes.Left].join(" ")}>
           <div className={classes.Content}>
+            <h2>Shopify store developer</h2>
+            <h4>
+              vertagear (
+              <a
+                className={classes.Link}
+                href="https://vertagear.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                vertagear.com
+              </a>
+              )
+            </h4>
+            <ul>
+              <li>Build landing pages</li>
+              <li>Optimize page speed</li>
+              <li>Manage the admin system</li>
+              <li>Develop features as needed</li>
+            </ul>
+          </div>
+        </div>
+        <div className={[classes.ContentContainer, classes.Right].join(" ")}>
+          <div className={classes.Content}>
+            <h2>Front end engineer</h2>
+            <h4>datatize (Singapore)</h4>
+            <ul>
+              <li>
+                Create React components for Dash framework (
+                <a
+                  className={classes.Link}
+                  href="https://dash.plotly.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  dash.plotly.com
+                </a>
+                )
+              </li>
+              <li>
+                Use Bootstrap and personal css skill to style components more
+                modern
+              </li>
+              <li>
+                Work with Dash framwork and build graphs, charts using Plotly
+                Express
+              </li>
+              <li>Build company website using Reactjs</li>
+              <li>Build PWA app using ExpressJs, MongoDb and React</li>
+            </ul>
+          </div>
+        </div>
+        <div className={[classes.ContentContainer, classes.Left].join(" ")}>
+          <div className={classes.Content}>
             <h2>
               App For Haravan app store (based in Vietnam, similar to Shopify)
             </h2>
-            <h4>May 2020 - Dec 2020</h4>
             <ul>
               <li>
                 Build a photo review app so that customer can post review with
@@ -47,7 +99,7 @@ const Work = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  https://anhnoi.com
+                  anhnoi.com
                 </a>
               </li>
             </ul>
@@ -63,7 +115,6 @@ const Work = () => {
         <div className={[classes.ContentContainer, classes.Right].join(" ")}>
           <div className={classes.Content}>
             <h2>University Project (IoT web app)</h2>
-            <h4>Sep 2019 - April 2020</h4>
             <ul>
               <li>
                 Build an IoT web app for my university with React, ExpressJs,
@@ -79,19 +130,19 @@ const Work = () => {
                 analyze users, devices data.
               </li>
             </ul>
-            <a
+            {/* <a
               href="https://hamkiot.nam-huynh.com"
               target="_blank"
               rel="noreferrer"
             >
               <Button>Project demo</Button>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className={[classes.ContentContainer, classes.Left].join(" ")}>
           <div className={classes.Content}>
             <h2>Full stack developer</h2>
-            <h4>InSolution (Tampere, Finland) | Jan 2018 - Aug 2019</h4>
+            <h4>InSolution (Tampere, Finland)</h4>
             <ul>
               <li>Maintain and develop the web app with .NET MVC</li>
               <li>Build RESTful APIs and work with MSSQL</li>
