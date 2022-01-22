@@ -5,6 +5,7 @@ import {
   Database,
   Code,
   AWS,
+  Shopify,
 } from "../../components/Icons/Icons";
 import classes from "./Skills.module.css";
 
@@ -23,23 +24,54 @@ const Skills = () => {
       <div className={classes.Skills}>
         <Skill
           iconElement={<React />}
-          description="ReactJs. Competently using hooks, functional components."
+          description={
+            <>
+              <b>ReactJs.</b> Competently using hooks, functional components.
+            </>
+          }
         />
         <Skill
           iconElement={<Nodejs />}
-          description="Use Expressjs framework, write efficient asynchronous programming."
+          description={
+            <>
+              <b>NodeJs.</b> Use Expressjs framework, write efficient
+              asynchronous programming.
+            </>
+          }
         />
         <Skill
           iconElement={<Database />}
-          description="MongoDB as No SQL database and previous experience with MS-SQL Database. Able to design schemas for best perfomence."
+          description={
+            <>
+              <b>MongoDB</b> as No SQL database and previous experience with
+              MS-SQL Database. Able to design schemas for best perfomence.
+            </>
+          }
         />
         <Skill
           iconElement={<Code />}
-          description="Write React and Node with TypeScript."
+          description={
+            <>
+              Write React and Node with <b>TypeScript</b>.
+            </>
+          }
         />
         <Skill
           iconElement={<AWS />}
-          description="Expreience with AWS such as EC2, S3, SES, Amplify, IoT, ..."
+          description={
+            <>
+              Expreience with <b>AWS</b> such as EC2, S3, SES, Amplify, IoT, ...
+            </>
+          }
+        />
+        <Skill
+          iconElement={<Shopify />}
+          description={
+            <>
+              <b>Shopify.</b> Work with Liquid, api; experience designing
+              landing page, building app, managing the store system
+            </>
+          }
         />
       </div>
     </Section>
