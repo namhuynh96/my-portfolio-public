@@ -8,7 +8,7 @@ const Education = () => {
       <div className={classes.Education}>
         <div className={classes.EducationEach}>
           <h3>Hamk University of Applied Sciences</h3>
-          <p className={classes.Time}>2016 - 2020</p>
+          {/* <p className={classes.Time}>2016 - 2020</p> */}
           <p>Bachelor in Automation Engineering</p>
         </div>
         <div className={classes.EducationEach}>

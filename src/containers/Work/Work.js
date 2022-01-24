@@ -66,6 +66,7 @@ const Work = () => {
             <h2>
               App For Haravan app store (based in Vietnam, similar to Shopify)
             </h2>
+            <h4>Personal business</h4>
             <ul>
               <li>
                 Build a photo review app so that customer can post review with
@@ -115,6 +116,7 @@ const Work = () => {
         <div className={[classes.ContentContainer, classes.Right].join(" ")}>
           <div className={classes.Content}>
             <h2>University Project (IoT web app)</h2>
+            <h4>Hamk UAS (Finland)</h4>
             <ul>
               <li>
                 Build an IoT web app for my university with React, ExpressJs,
