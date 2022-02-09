@@ -33,7 +33,7 @@ const Work = () => {
         </div>
         <div className={[classes.ContentContainer, classes.Right].join(" ")}>
           <div className={classes.Content}>
-            <h2>Front end engineer</h2>
+            <h2>Front end developer</h2>
             <h4>datatize (Singapore)</h4>
             <ul>
               <li>
@@ -49,15 +49,14 @@ const Work = () => {
                 )
               </li>
               <li>
-                Use Bootstrap and personal css skill to style components more
+                Use Bootstrap and CSS skill to style components more
                 modern
               </li>
               <li>
                 Work with Dash framwork and build graphs, charts using Plotly
                 Express
               </li>
-              <li>Build company website using Reactjs</li>
-              <li>Build PWA app using ExpressJs, MongoDb and React</li>
+              <li>Build PWA app using Reactjs</li>
             </ul>
           </div>
         </div>
@@ -149,11 +148,10 @@ const Work = () => {
               <li>Maintain and develop the web app with .NET MVC</li>
               <li>Build RESTful APIs and work with MSSQL</li>
               <li>
-                Build new features and functionalities as need of the customers
+                Build new features and functionalities as needed from customers
               </li>
               <li>
-                Create real-time data transfer from local server to PLC (by HTTP
-                and timer)
+                Create real-time data transfer from local server to PLC via HTTP
               </li>
               <li>
                 Understand the fundametals of software and protocols (TCP/IP,
