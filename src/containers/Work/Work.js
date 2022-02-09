@@ -10,7 +10,7 @@ const Work = () => {
       <div className={classes.Timeline}>
         <div className={[classes.ContentContainer, classes.Left].join(" ")}>
           <div className={classes.Content}>
-            <h2>Shopify store developer</h2>
+            <h2>Shopify store engineer</h2>
             <h4>
               vertagear (
               <a
@@ -33,7 +33,7 @@ const Work = () => {
         </div>
         <div className={[classes.ContentContainer, classes.Right].join(" ")}>
           <div className={classes.Content}>
-            <h2>Front end developer</h2>
+            <h2>Front end engineer</h2>
             <h4>datatize (Singapore)</h4>
             <ul>
               <li>
@@ -142,7 +142,7 @@ const Work = () => {
         </div>
         <div className={[classes.ContentContainer, classes.Left].join(" ")}>
           <div className={classes.Content}>
-            <h2>Full stack developer</h2>
+            <h2>Full stack engineer</h2>
             <h4>InSolution (Tampere, Finland)</h4>
             <ul>
               <li>Maintain and develop the web app with .NET MVC</li>
